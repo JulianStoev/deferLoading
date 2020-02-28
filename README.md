@@ -32,13 +32,13 @@ srcSelector: 'data-src'
 deferLoading.init('aboveTheFoldLineContent');
 ```
 
-In the above case after you run the script it will bind event listeners for scroll and resize. When any of these events occure,
+In the above case after you run the script it will bind event listeners for scroll and resize. When any of these events occur,
 the elements with the imgClass will be fetched from the page and if they have src (images) the data-src will be added as their src.
 For the elements that aren't images a background-image style with the data-src will be applied.
 
 When calling the script you can pass a parameter which is the ID of the element that is expectedto be above the fold line. 
 Its child elements will be calculated and the ones that are above the fold line will automatically receive their src, 
-the rest will have to wait until the user interaction occure.
+the rest will have to wait until the user interaction occur.
 
 You can pass either a single string with the ID or an array:
 ```
@@ -46,4 +46,4 @@ deferLoading.init('aboveTheFoldLineContent');
 deferLoading.init(['aboveTheFoldLineContent1', 'aboveTheFoldLine2']);
 ```
 
-The listeners will be unbinded automatically when the user interaction occures.
+The listeners will be unbinded automatically when the user interaction occurs.
