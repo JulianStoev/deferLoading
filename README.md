@@ -22,9 +22,10 @@ srcSelector: 'data-src'
 <div id="aboveTheFoldLineContent">
   <div class="defer-img-js" data-src="https://example.com/img1.jpg"></div>
   <div class="defer-img-js" data-src="https://example.com/img2.jpg"></div>
-  <div class="defer-img-js" data-src="https://example.com/img3.jpg"></div>
 </div>
+
 <img class="defer-img-js" data-src="https://example.com/img.jpg" src="data:image/webp;base64,UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==" />
+
 <div class="defer-img-js" data-src="https://example.com/img.jpg"></div>
 ```
 
