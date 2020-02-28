@@ -1,4 +1,4 @@
-# Defer Image Loading
+# Defer Image Loading JS
 
 Defer loading for images that are below the fold line, mainly for mobile optimization.
 This will make the these images to show only after user interaction: scroll or resize.
