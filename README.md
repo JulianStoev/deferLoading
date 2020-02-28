@@ -1,7 +1,7 @@
 # Defer Image Loading
 
 Defer loading for images that are below the fold line, mainly for mobile optimization.
-This will make the images below the fold line show only after user interaction: scroll or resize.
+This will make the these images to show only after user interaction: scroll or resize.
 This way you will speed up loading, save bandwidth, and rise your Google page speed score.
 
 This is a pure JavaScript solution without any dependencies.
