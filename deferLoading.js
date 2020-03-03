@@ -7,7 +7,7 @@ var deferLoading = {
       return;
     }
     if (parentId) {
-      if (parentId[0]) {
+      if (Array.isArray(parentId)) {
         parentId.forEach(function (el) {
           deferLoading.handleParent(el);
         });
